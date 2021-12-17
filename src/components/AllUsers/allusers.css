@@ -1,0 +1,25 @@
+.all-family {
+    border: 1px solid #cccccc;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto 10px;
+    display: none;
+}
+
+.all-family:hover {
+    border: 1px solid #CF4647;
+    -webkit-transition: border-color 0.5s ease;
+    -moz-transition: border-color 0.5s ease;
+    -o-transition: border-color 0.5s ease;
+    transition: border-color 0.5s ease;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+.app-family-suggestions {
+    border: 1px sold white;
+}

@@ -1,0 +1,33 @@
+.inputbox-input {
+    flex: 1 1 100%;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 300px;
+    margin: 0 20px 30px;
+    -webkit-box-shadow: 0 15px 20px 5px #E9E7EA;
+    -moz-box-shadow: 0 15px 20px 5px #E9E7EA;
+    box-shadow: 0 15px 20px 5px #E9E7EA;
+}
+
+.inputbox-result-wrapper {
+    background-color: #fafafa;
+    min-height: 100px;
+    margin: 20px auto 0;
+}
+
+.inputbox-result-wrapper ul {
+    padding: 5px;
+}
+
+.inputbox-parent-item {
+    cursor: pointer;
+}
+
+.inputbox-parent-item:hover {
+    font-weight: bold;
+    color: #f56991;
+    -webkit-transition: color 0.5s ease;
+    -moz-transition: color 0.5s ease;
+    -o-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}

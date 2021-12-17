@@ -1,0 +1,46 @@
+.top-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    width: 100%;
+}
+  
+.top-icon {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+
+/* .icon-open {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-100%);
+} */
+
+/* .icon-closed {
+    transition: all 0.3s ease-in-out;
+    transform: translateY(100%);
+} */
+
+.menubar-closed {
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(-100%);
+}
+
+.menubar-open {
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(15%);
+}
+
+.menubar-alt-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.menubar-alt-menu button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    padding: 10px;
+}

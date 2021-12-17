@@ -1,0 +1,30 @@
+* { box-sizing: border-box; }
+body {
+  background-color: #FCFFFF;
+  margin: 0;
+  font-size: 16px;
+  font-family: 'Varela Round', sans-serif;
+  color: #444444;
+  line-height: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input {
+  border: 1px solid transparent;
+  background-color: #f1f1f1;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type=text] {
+  background-color: #f1f1f1;
+  width: 100%;
+}
+input[type=submit] {
+  background-color: DodgerBlue;
+  color: #fff;
+}
+
+button {
+  font-family: 'Varela Round', sans-serif;
+}
